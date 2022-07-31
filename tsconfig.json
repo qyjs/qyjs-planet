@@ -1,0 +1,35 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+
+
+
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    //
+    "forceConsistentCasingInFileNames": false,
+    "strict": false,
+    "noImplicitOverride": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": false,
+    "downlevelIteration": false,
+
+    "target": "es2017",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2020", "dom"],
+    "paths": {
+      "@demo/common": ["examples/common"],
+      "ngx-planet": ["packages/planet/src/public-api.ts"],
+      "ngx-planet/*": ["packages/planet/src/*"]
+    }
+  },
+  "angularCompilerOptions": {}
+}

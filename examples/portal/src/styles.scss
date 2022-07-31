@@ -1,0 +1,8 @@
+@use 'ngx-tethys/styles/variables.scss' with (
+    $layout-content-background: #fff,
+);
+@use 'ngx-tethys/styles/index.scss';
+
+@use './app/app.component.scss';
+
+@use '../../common/section-card/section-card.component.scss';
